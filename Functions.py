@@ -170,3 +170,43 @@
 #     final_amount = discounted_price * (1 + tax)
     
 #     return final_amount
+
+# To check wheather a number is even or not with type of the data in it 
+# def is_even(n: int) -> bool:
+#     return n % 2 == 0
+
+# print(is_even(10))
+
+#code implements Binary Search, one of the most important interview algorithms.
+# def binary_search(nums, target):
+#     left, right = 0, len(nums) - 1
+    
+#     while left <= right:
+#         mid = (left + right) // 2
+        
+#         if nums[mid] == target:
+#             return mid
+        
+#         if nums[mid] < target:
+#             left = mid + 1
+#         else:
+#             right = mid - 1
+    
+#     return -1
+
+# Fibonachi Series 
+# def fib(n):
+#     if n <= 1:
+#         return n
+    
+#     return fib(n - 1) + fib(n - 2)
+
+# print(fib(10))
+
+# Factorial 
+# def factorial(n):
+#     if n == 0:
+#         return 1
+    
+#     return n * factorial(n - 1)
+
