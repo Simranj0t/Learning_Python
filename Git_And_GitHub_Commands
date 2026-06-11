@@ -5,6 +5,12 @@ git config --global --unset user.name
 git config --global --unset user.email
 
 git add <-file name->
+git add .
 git commit -m "Some Message"
 git commit -m origin
 git push origin main
+git push
+
+git branch -d "Branch_Name"
+git switch "Branch_Name"
+git branch "Branch_Name"
