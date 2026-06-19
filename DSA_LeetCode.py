@@ -16,3 +16,18 @@ for i in nums:
 print(value)
 
 ###################################################################################
+
+# 1732 Find the Highest Altitue
+
+gain = [-5,1,0,5,-7]
+
+cur = 0
+maximum = 0
+
+for i in gain :
+    cur = cur + i
+    if cur > maximum:
+        maximum = cur
+print(maximum) 
+
+#######################################################################################
