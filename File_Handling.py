@@ -25,5 +25,13 @@
 # print(line1)
 # print(line2)
 # file.close()
-# # to add the line using the w - overrite mode and a - to append the text
 
+# to add the line using the w - overrite mode and a - to append the text
+file = open("demo.txt","W")
+file.write("This is a new line to test the Write mode with -w")
+print(file)
+
+# to add the line using the w - overrite mode and a - to append the text
+file = open("demo.txt","a")
+file.write("This is a new line to test the Write mode with -a")
+print(file)
