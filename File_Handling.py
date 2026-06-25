@@ -1,4 +1,4 @@
-# # command to open an existing file in the location
+# command to open an existing file in the location
 
 # file = open("demo.txt","r")
 # data = file.read()
@@ -62,3 +62,10 @@ with open("practice.txt", "r") as f:
         print("Found")
     else:
         print("not found")
+
+num = ""
+for i in range(len(data)):
+    if(data[i] == ","):
+        print(num)
+    else:
+        num += data[i]
