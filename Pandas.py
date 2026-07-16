@@ -15,3 +15,6 @@ df.to_csv("Sample.csv",index=False)
 simran = pd.read_csv("TrainDetails.csv")
 simran
 simran["pf no"][0] = 6
+
+# By this command we can change the index names also.
+simran.index = ["First","Second","Third","Fourth"]

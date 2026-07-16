@@ -31,3 +31,19 @@ for i in gain :
 print(maximum) 
 
 ####################################################################################
+
+# Problem 3754 Concatenate Non -Zero Digits and Multiply by sum
+
+
+
+def contatenate (n):
+    x = ""
+    sum =0
+    for i in str(n) :
+        if i != "0":
+            x += i
+            sum += int(i)
+        if n == 0 :
+            return 0
+    return (int(x)*sum)
+print(contatenate(10250610))
