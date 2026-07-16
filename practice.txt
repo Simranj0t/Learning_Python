@@ -1,0 +1,7 @@
+
+nums = [6, 10, 15, 9]
+mx = 0
+
+for num in nums:
+    mx = max(mx, num)
+    print(mx)
