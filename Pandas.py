@@ -24,6 +24,8 @@ dict1 = {
 }
 df = pd.DataFrame(dict1)
 print(df)
+#  We can also export the DataFrame to the Csv
+df.to_csv("Csv_name.csv")
 
 # 2b. Creating a DataFrame from a list of lists
 rows = [
