@@ -26,6 +26,8 @@ df = pd.DataFrame(dict1)
 print(df)
 #  We can also export the DataFrame to the Csv
 df.to_csv("Csv_name.csv")
+# We can also export the DataFrame to the CSV without index in it 
+df.to_csv("Csv_name.csv",index = False)
 
 # 2b. Creating a DataFrame from a list of lists
 rows = [
