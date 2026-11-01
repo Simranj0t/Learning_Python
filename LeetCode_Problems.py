@@ -1,4 +1,4 @@
-# 3867. Sum of GCD of Formed Pairs
+"""# 3867. Sum of GCD of Formed Pairs
 from math import gcd
 
 class Solution:
@@ -26,4 +26,14 @@ class Solution:
             left += 1
             right -= 1
 
-        return ans
+        return ans"""
+
+# Two Sum Problem 
+nums = [2,7,11,15]
+target = 9 
+
+for i = 0 to n-1:
+    for j = i+1 to n-1:
+        if nums[i] + nums[j] == target:
+            return [i, j]
+
