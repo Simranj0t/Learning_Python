@@ -212,7 +212,7 @@
 
 
 # Function to find the average
-def average(a,b):
-    return (a+b)/2
+# def average(a,b):
+#     return (a+b)/2
 
-print(average(6,8))
+# print(average(6,8))
