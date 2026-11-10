@@ -211,4 +211,8 @@
 #     return n * factorial(n - 1)
 
 
-# This line change for Testing
+# Function to find the average
+def average(a,b):
+    return (a+b)/2
+
+print(average(6,8))
