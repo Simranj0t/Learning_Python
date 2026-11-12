@@ -4,11 +4,13 @@
 # greet()
 
 
-# # Greet with Taking the name as input 
-# def greet(name):
-#     return(f"Hello, {name}")
+# Greet with Taking the name as input 
+def greet(name):
+    return(f"Hello, {name}")
 # greeting = greet("Preetam")
 # print(greeting)
+# or
+# print(greet("Preetam"))
 
 # #function to Add two numbers 
 
