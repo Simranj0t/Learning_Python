@@ -5,8 +5,8 @@
 
 
 # Greet with Taking the name as input 
-def greet(name):
-    return(f"Hello, {name}")
+# def greet(name):
+#     return(f"Hello, {name}")
 # greeting = greet("Preetam")
 # print(greeting)
 # or
