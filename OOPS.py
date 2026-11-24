@@ -24,4 +24,27 @@ class Dog(Animal):
 d = Dog("Buddy", "Golden Retriever")
 d.info()      # Parent method
 d.details()   # Child method 
-"""
+
+Encapsulation in Python is an object-oriented programming concept that bundles data (attributes) and the methods that operate
+on that data into a single unit (a class), while restricting direct access to some of an object's internal components.
+It helps protect data integrity, prevent accidental changes, and expose only a controlled interface.
+
+class Employee:
+    def __init__(self):
+        self.__salary = 50000  # Private attribute
+
+    def get_salary(self):    # Getter method
+        return self.__salary
+
+    def set_salary(self, amount):   # Setter method
+        if amount > 0:
+            self.__salary = amount
+        else:
+            print("Invalid salary amount!")
+
+emp = Employee()
+print(emp.get_salary())  # Access salary using getter
+
+emp.set_salary(60000)   # Update salary using setter
+print(emp.get_salary())
+ """
