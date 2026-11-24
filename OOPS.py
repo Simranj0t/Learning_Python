@@ -11,11 +11,17 @@ class Animal:
     def speak(self):
         return "Some generic sound"
 
-# Child class inheriting from Animal
+# Child Class: Dog
 class Dog(Animal):
-    def speak(self):  # Overriding the parent method
-        return f"{self.name} says Woof!"
+    def __init__(self, name, breed):
+        # Calls constructor based on MRO
+        super().__init__(name)  
+        self.breed = breed
 
-dog = Dog("Buddy")
-print(dog.speak())  # Output: Buddy says Woof!
- """
+    def details(self):
+        print(self.name, "is a", self.breed)
+
+d = Dog("Buddy", "Golden Retriever")
+d.info()      # Parent method
+d.details()   # Child method 
+"""
