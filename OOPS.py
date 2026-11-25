@@ -47,4 +47,30 @@ print(emp.get_salary())  # Access salary using getter
 
 emp.set_salary(60000)   # Update salary using setter
 print(emp.get_salary())
+ 
+  is a core object-oriented programming (OOP) concept where a single function, operator, or method name can work with 
+  different types of objects and behave appropriately for each. The word comes from Greek, meaning "many forms".
+ 
+ class Dog:
+    def speak(self):
+        return "Woof!"
+
+class Cat:
+    def speak(self):
+        return "Meow!"
+
+class Car:
+    def speak(self):
+        return "Honk!"
+
+# All three unrelated objects respond to the same method call
+animals_and_objects = [Dog(), Cat(), Car()]
+
+for item in animals_and_objects:
+    print(item.speak())
+
+# Output:
+# Woof!
+# Meow!
+# Honk!
  """
